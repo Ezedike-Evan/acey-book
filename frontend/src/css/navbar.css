@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient( 160deg, var(--main-color),pink);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+nav *{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 90px;
+    height: 45px;
+    margin: 0 0 0 20px;
+}
+.links{
+    margin-right: 20px;
+}
+.links *{
+    cursor: pointer;
+    margin: 0 7px;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: white;
+}
+@media (max-width:425px) {
+    nav img{
+        width: 80px;
+        height: 35px;
+        margin: 0 0 0 8px;
+    }
+    .links *{
+        margin: 0 5px;
+        font-size: 6px;
+    }
+}

@@ -1,0 +1,28 @@
+.intro-quote{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 7px;
+    border-left: 3px solid var(--main-color);
+}
+.intro-quote h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: Ubuntu;
+    font-weight: normal;
+}
+.intro-quote sub{
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    align-self: flex-end;
+}
+@media (max-width:375px) {
+    .intro-quote h3{
+        font-size: 11px;
+    }
+    .intro-quote sub{
+        font-size: 8px;
+    }   
+}
